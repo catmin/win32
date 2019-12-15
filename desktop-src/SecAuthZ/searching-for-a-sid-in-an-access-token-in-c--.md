@@ -98,7 +98,7 @@ BOOL SearchTokenGroupsForSID (VOID)
                     return FALSE;
                 }
             }
-            printf( "Current user is a member of the %s\\%s group\n", 
+            printf( "Current user is a member of the %S\\%S group\n", 
                     lpDomain, lpName );
 
             // Find out whether the SID is enabled in the token.
